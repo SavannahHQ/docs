@@ -1,3 +1,5 @@
 theme: jekyll-theme-architect
+markdown: kramdown
+
 title: Savannah CRM
 description: Documentation for Savannah CRM

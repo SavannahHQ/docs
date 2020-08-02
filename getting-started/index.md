@@ -1,3 +1,6 @@
+* TOC
+{:toc}
+
 ## Getting Started with Savannah
 
 To start tracking your community with Savannah, you will need to [Create a new Community](https://savannahhq.com/community/new) by providing a name and logo.
