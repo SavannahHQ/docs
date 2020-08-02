@@ -24,6 +24,8 @@ Once you've added a `Source`, you will be shown a list of available `Channels` a
 
 ## Navigating your new Community
 
+While your data is being imported, take a moment to familiarize yourself with the basic layout of Savannah. These components will be on every screen, allowing you quick access to all the most commonly used functionality.
+
 ![App Layout](./Layout.png)
 
 ### Filtering your view
