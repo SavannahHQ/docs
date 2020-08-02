@@ -28,15 +28,23 @@ Once you've added a `Source`, you will be shown a list of available `Channels` a
 
 ### Filtering your view
 
-### Notifications you will receive
+Most pages in Savannah can be filtered a time range, by a Member's `Role` (Community, Staff or Bot) or by the `Tag` associated with the Member, Conversation or Contribution.
 
-### Sharing your Community with other Managers
+![View Filters](./FilterButtons.png)
 
+Filters are saved to your session, so once you apply them they will follow you from one page to another until they are cleared.
 
-## Managing your Community data
+## Managing your Community
+
+### Merging Member Identities
+
+![Notification of Member merge suggestions](./MergeSuggestionNotification.png)
 
 ### Assigning Roles to your Members
 
 ### Creating your own Tags
 
 ### Using Projects
+
+### Adding other Managers
+
