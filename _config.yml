@@ -3,3 +3,7 @@ markdown: kramdown
 
 title: Savannah CRM
 description: Documentation for Savannah CRM
+
+url: "https://docs.savannahhq.com"
+plugins:
+  - jekyll-sitemap

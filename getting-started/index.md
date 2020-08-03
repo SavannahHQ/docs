@@ -1,6 +1,3 @@
-* TOC
-{:toc}
-
 ## Getting Started with Savannah
 
 To start tracking your community with Savannah, you will need to [Create a new Community](https://savannahhq.com/community/new) by providing a name and logo.
@@ -33,7 +30,7 @@ While your data is being imported, take a moment to familiarize yourself with th
 
 ### Filtering your view
 
-Most pages in Savannah can be filtered a time range, by a Member's `Role` (Community, Staff or Bot) or by the `Tag` associated with the Member, Conversation or Contribution.
+Most pages in Savannah can be filtered by a time range, by a Member's `Role` (Community, Staff or Bot) or by the `Tag` associated with the Member, Conversation or Contribution.
 
 ![View Filters](./FilterButtons.png)
 
