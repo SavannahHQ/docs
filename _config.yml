@@ -7,3 +7,4 @@ description: Documentation for Savannah CRM
 url: "https://docs.savannahhq.com"
 plugins:
   - jekyll-sitemap
+parse_block_html: true
