@@ -38,15 +38,39 @@ Filters are saved to your session, so once you apply them they will follow you f
 
 ## Managing your Community
 
+Savannah's goal is to give you insights, not more work, so it automates as much as possible.
+However, there are some things that require your specific knowledge and experience to really bring out the full power of what Savannah can do for you.
+
 ### Merging Member Identities
+
+As soon as you start importing data from more than one source, say Github *and* Slack, you're going to run into the problem of having two separate accounts for the same community member. Since you want to track all of that member's activity together, you will need to tell Savannah when two accounts belong to just one person.
+
+Luckily Savannah makes this easy! It will periodically look for likely matches based on details like username, email address or even full name matching, and suggest them to you for merging. When you see a notification like this, that means Savannah is *pretty sure* it's found two identities of the same person, and lets you quickly accept or reject it's suggestions.
 
 ![Notification of Member merge suggestions](./MergeSuggestionNotification.png)
 
 ### Assigning Roles to your Members
 
+One of Savannah's guiding principles is that anybody who interacts with anybody in your community is part of that community. That's why it tracks activity from employees and even bots, and includes them in visualizations and reports. But looking at each of these groups individually also has value, which is why filtering by `Role` is built into most Savannah pages.
+
+In order to take advantage of this feature you will need to specific which members of your community are Staff or Bots by going to their Member Profile page and clicking the `Edit` button. Everybody is set as Community by default, so you will only need to do this for Bots and Staff.
+
+![Edit a Member](./EditMemberForm.png)
+
 ### Creating your own Tags
+
+Tags allow you to filter people and activity based on areas of interest to you.  Tags can be manually applied to any Member in your community, and automatically applied to Conversations and Contributions based on keyword matching.
+
+Create your own tags for any programs, features or topics that you might want to see on their own. For example, if you have an Ambassadors program, create a tag for to apply to Members, then you can see activity from just your Ambassadors. Or if you have a specific feature in your product and you want to see who is talking about it, create a tag with keywords to apply it to conversations happening anywhere in your community. 
+
+![Custom Tags](./TagsList.png)
+
+Savannah creates two for you to start with: **greeting** and **thankful**. These tags will classify conversations between your Members based on keywords so you can track how welcoming and appreciative your community is.
 
 ### Using Projects
 
+![Custom Projects](./CustomProject.png)
+
 ### Adding other Managers
 
+![Community Managers](./ManagersList.png)
