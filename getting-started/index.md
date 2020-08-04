@@ -38,7 +38,7 @@ Filters are saved to your session, so once you apply them they will follow you f
 
 ## Managing your Community
 
-Savannah's goal is to give you insights, not more work, so it automates as much as possible.
+Savannah's goal is to make your life simpler, not give you more work, so it automates as much as possible.
 However, there are some things that require your specific knowledge and experience to really bring out the full power of what Savannah can do for you.
 
 ### Merging Member Identities
@@ -53,7 +53,7 @@ Luckily Savannah makes this easy! It will periodically look for likely matches b
 
 One of Savannah's guiding principles is that anybody who interacts with anybody in your community is part of that community. That's why it tracks activity from employees and even bots, and includes them in visualizations and reports. But looking at each of these groups individually also has value, which is why filtering by `Role` is built into most Savannah pages.
 
-In order to take advantage of this feature you will need to specific which members of your community are Staff or Bots by going to their Member Profile page and clicking the `Edit` button. Everybody is set as Community by default, so you will only need to do this for Bots and Staff.
+In order to take advantage of this feature you will need to specify which members of your community are Staff or Bots by going to their Member Profile page and clicking the `Edit` button. Everybody is set as Community by default, so you will only need to do this for Bots and Staff.
 
 ![Edit a Member](./EditMemberForm.png)
 
@@ -61,16 +61,26 @@ In order to take advantage of this feature you will need to specific which membe
 
 Tags allow you to filter people and activity based on areas of interest to you.  Tags can be manually applied to any Member in your community, and automatically applied to Conversations and Contributions based on keyword matching.
 
-Create your own tags for any programs, features or topics that you might want to see on their own. For example, if you have an Ambassadors program, create a tag for to apply to Members, then you can see activity from just your Ambassadors. Or if you have a specific feature in your product and you want to see who is talking about it, create a tag with keywords to apply it to conversations happening anywhere in your community. 
+Create your own tags for any programs, features or topics that you might want to see on their own. For example, if you have an Ambassadors program, create a tag for it and apply that to your Members, then you can see activity from just your Ambassadors. Or if you have a specific feature in your product and you want to see who is talking about it, create a tag with keywords to match against conversations happening anywhere in your community. 
 
 ![Custom Tags](./TagsList.png)
 
-Savannah creates two for you to start with: **greeting** and **thankful**. These tags will classify conversations between your Members based on keywords so you can track how welcoming and appreciative your community is.
+Savannah creates two for you to start with: **greeting** and **thankful**. These tags will classify conversations between your Members so you can track how welcoming and appreciative your community is.
 
 ### Using Projects
 
+Projects give you another way of defining segments of your community that you want to track independently from the whole. These can target specific products or services that you offer, or outreach programs that you run, by choosing which Channels and Tags to treat as activity for that Project. You can even add Tasks for yourself to track work items you need to do for it!
+
 ![Custom Projects](./CustomProject.png)
 
+Projects will automatically identify your **Core** members and **Contributors**, as well how many **Participants** and **Visitors** you have for that project. Similar to a sales funnel, this lets you track how well you are doing getting people onboarded in your community and whether or not they are progressing to more involved levels.
+
+![Project Levels](./ProjectLevels.png)
+
+Your community will start with a default Project that covers all of your channels and tags.
+
 ### Adding other Managers
+
+Whether you are Community Team of one or many, you're going to want to share access to your community insights with other people in your company or project. Savannah makes it easy to add more managers to your community by sending them an email invitation. Once they sign up using the link in the email, they will be added as a manager of your community. 
 
 ![Community Managers](./ManagersList.png)
