@@ -3,6 +3,7 @@ markdown: kramdown
 
 title: Savannah CRM
 description: Documentation for Savannah CRM
+google_analytics: UA-21725789-6
 
 url: "http://docs.savannahhq.com"
 plugins:
