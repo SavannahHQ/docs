@@ -6,7 +6,7 @@ To start tracking your community with Savannah, you will need to [Create a new C
 
 Your Logo should be a square or roughly square image, at least 64x64 px in size.
 
-### Adding Sources and Channels
+### Adding Sources
 
 Your first task after creating a new Community is to add a data source and channels to it. You will see this message at the top of your screen until you've done that. Click the `Sources` button in the prompt to go to where you can add your first `Source`.
 
@@ -15,6 +15,8 @@ Your first task after creating a new Community is to add a data source and chann
 Click the `Add` button on the right hand side to see a list of sources you can import data from. Each option will prompt you for additional information specific to that source.
 
 ![Add Source Screen](./AddSource.png)
+
+### Adding Channels
 
 Once you've added a `Source`, you will be shown a list of `Channels` available in it. These could be Slack channels, Github repos or Discourse categories, depending on your `Source` type. Savannnah will only import data from those channels that you choose to track in order to let you decide what data you're interested in tracking.
 
