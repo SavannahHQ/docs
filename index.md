@@ -4,5 +4,5 @@ Savannah is Community Relationship Manager (CoRM), it gives you a holistic view 
 
 You can sign up for Savannh at [https://savannahhq.com](https://savannahhq.com), then follow the [Getting Started Guide](./getting-started/) to get your community setup.
 
-![SavannahCRM Dashboart](./Dashboard.png)
+![SavannahCRM Dashboard](./Dashboard.png)
 
