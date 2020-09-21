@@ -1,8 +1,8 @@
-## API Integration
+# API Integration
 
 While Savannah provides a number of built-in data sources, your community will likey exist and be active in some systems that it doesn't know about. In these cases Savannah provides an `API Integration` Source type that will enable you to push Member and Conversation data directly into your Savannah community.
 
-## Creating an API Source
+## Create an Integration Source
 
 All data imported into Savannah is associated with a `Source` object, and API integrations are no different. In order to add your external system to Savannah you must first create an `API Integration` Source, in the same way as you create other sources.
 
@@ -25,6 +25,7 @@ Authorization: token f32fde77-ebbb-4799-94f7-065846da88bf
 ### Timestamps
 
 Timestamps will always use the format `YYYY-MM-DDThh:mm[:ss[.uuuuuu]][+HH:MM|-HH:MM|Z]`
+
 ### Origin IDs
 
 Savannah's API doesn't expose internal IDs, instead it uses unique identifiers from your external system to lookup internal records. These are referred to as the `origin_id` of the record.
