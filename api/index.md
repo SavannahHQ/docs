@@ -31,6 +31,8 @@ Savannah's API doesn't expose internal IDs, instead it uses unique identifiers f
 
 You will need to provide an ID for each `Identity` and `Conversation` that is unique to your system. These IDs should be unique to your integration source, but do not need to be globally unique for your community. For example, you can have an `Identity` with the id `testuser` in your integration source, and also a user with the same identity from a Slack or Github source. 
 
+An `origin_id` can be any string up to 256 characters long. You can use internal ID numbers, unique names or URIs, as long at the resulting string is unique for that data type in your intergration source.
+
 Merging multiple identities into the same `Member` can be done in Savannah the same way it is for non-API sources.
 
 ### Repeating API calls
@@ -67,9 +69,9 @@ https://savannahhq.com/api/v1/conversation/
 
 ![Create a Conversation](./ConversationsAPI.png)
 
-When creating a `Conversation` you will need to provide certain fields in the form of their respetive `origin_id`. These records will be created in Savannah if they haven't already been added.
+When creating a `Conversation` you will need to provide certain fields in the form of their respective `origin_id`. These records will be created in Savannah if they haven't already been added.
 
-* **speaker**: The id of the person who started the conversation
+* **speaker**: The id of the person who posted the comment
 * **channel**: The id of the channel (however your source defines them) that the conversation happened in
 * **participants**: A list of ids for the people who were tagged, replied to, or otherwise were a participant in this conversation.
 
