@@ -48,7 +48,7 @@ Whenever an API call references an `origin_id` for a record that is not already 
 
 You will still need to make additional API calls to fill in the missing data for those newly created records, but you will not be required to do that beforehand.
 
-## Identities
+# Identities
 
 An `Identity` is what associates a `Member` of your community with a `Source`. Members can (and usually do) have more than one `Identity`.
 
@@ -60,7 +60,21 @@ https://savannahhq.com/api/v1/identity/
 
 ![Create an Identity](./IdentityAPI.png)
 
-## Conversations
+You can create a new `Identity` by senting a POST message to the `Identity` endpoint. Creating an `Identiy` will also create a `Member` for that `Identity`
+
+```
+curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: token f32fde77-ebbb-4799-94f7-065846da88bf" http://127.0.0.1:8000/api/v1/identity/ <<EOF
+{
+    "origin_id": "test_user_id",
+    "username": "test_user",
+    "name": "Test User",
+    "email": "test@example.com",
+    "avatar": null
+}
+EOF
+```
+
+# Conversations
 
 The `Conversation` API endpoint is:
 
@@ -77,3 +91,19 @@ When creating a `Conversation` you will need to provide certain fields in the fo
 * **participants**: A list of ids for the people who were tagged, replied to, or otherwise were a participant in this conversation.
 
 Savannah will create a `Connection` record between the `speaker` and any `particpants` in the conversation.
+
+```
+curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: token f32fde77-ebbb-4799-94f7-065846da88bf" http://127.0.0.1:8000/api/v1/conversation/ <<EOF
+{
+    "origin_id": "conversation_id",
+    "speaker": "test_user",
+    "channel": "example_channel",
+    "timestamp": "2020-09-20T15:12:26",
+    "content": "Some test conversation text",
+    "location": "https://example.com/conversations/conversation_id/test_conversation",
+    "participants": [
+        "test_user_x"
+    ]
+}
+EOF
+```
