@@ -86,9 +86,9 @@ https://savannahhq.com/api/v1/conversation/
 
 When creating a `Conversation` you will need to provide certain fields in the form of their respective `origin_id`. These records will be created in Savannah if they haven't already been added.
 
-* **speaker**: The id of the person who posted the comment
-* **channel**: The id of the channel (however your source defines them) that the conversation happened in
-* **participants**: A list of ids for the people who were tagged, replied to, or otherwise were a participant in this conversation.
+* `speaker`: The id of the person who posted the comment
+* `channel`: The id of the channel (however your source defines them) that the conversation happened in
+* `participants`: A list of ids for the people who were tagged, replied to, or otherwise were a participant in this conversation.
 
 Savannah will create a `Connection` record between the `speaker` and any `particpants` in the conversation.
 
@@ -120,8 +120,8 @@ https://savannahhq.com/api/v1/contribution/
 
 When creating a `Contribution` you will need to provide certain fields in the form of their respective `origin_id`. These records will be created in Savannah if they haven't already been added.
 
-* **author**: The id of the person who made the contribution
-* **channel**: The id of the channel (however your source defines them) that the contribution was made in
+* `author`: The id of the person who made the contribution
+* `channel`: The id of the channel (however your source defines them) that the contribution was made in
 
 You must also provide a `contribution_type` string to that identifies the kind of contribution this is. This string does not need to be an `origin_id` from your source.
 
