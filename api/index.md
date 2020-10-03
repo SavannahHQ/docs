@@ -107,3 +107,36 @@ curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: toke
 }
 EOF
 ```
+
+# Contributions
+
+The `Contribution` API endpoint is:
+
+```
+https://savannahhq.com/api/v1/contribution/
+```
+
+![Create a Contribution](./ContributionsAPI.png)
+
+When creating a `Contribution` you will need to provide certain fields in the form of their respective `origin_id`. These records will be created in Savannah if they haven't already been added.
+
+* **author**: The id of the person who made the contribution
+* **channel**: The id of the channel (however your source defines them) that the contribution was made in
+
+You must also provide a `contribution_type` string to that identifies the kind of contribution this is. This string does not need to be an `origin_id` from your source.
+
+If the `Contribution` you area adding is associated with an existing `Conversation`, you can provide the `origin_id` of the `Conversation` as the `conversation` parameter, otherwise leave it as `null`.
+
+```
+curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: token f32fde77-ebbb-4799-94f7-065846da88bf" https://savannahhq.com/api/v1/contribution/ <<EOF
+{
+    "origin_id": "contribution_id",
+    "author": "test_user",
+    "contribution_type": "API Push",
+    "channel": "example_channel",
+    "timestamp": "2020-10-02T15:12:26",
+    "title": "Contribution via API",
+    "location": "https://example.com/conversations/contribution_id/test_contribution",
+    "conversation": "conversation_id"
+}
+```
