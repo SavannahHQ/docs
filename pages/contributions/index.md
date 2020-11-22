@@ -5,7 +5,7 @@
 ## What is a Contribution?
 
 | Source    | Contribution Types |
-|-----------|-------------------|
+|:----------|:------------------|
 | Slack     | Help given in chat to another member, as suggested by Savannah |
 | Discourse | Posts marked as a Solution using Discourse's Answers plugin |
 | Discord   | Help given in chat to another member, as suggested by Savannah |

@@ -7,7 +7,7 @@ Connections are a powerful way to measure the health of your community, because 
 Savannah treats any direct communication between two people as a Connection. Below is a table describing the way connections are recorded for each Source that Savannah provides.
 
 | Source    | Connection from |
-|-----------|-------------------|
+|:----------|:------------------|
 | Slack     | @tagging a member or responding in a thread that the member is also in. |
 | Discourse | @tagging a member or responding in a topic that member is also in. |
 | Discord   | @tagging a member. |
