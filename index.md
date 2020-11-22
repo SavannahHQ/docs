@@ -6,11 +6,15 @@ You can sign up for Savannh at [https://savannahhq.com](https://savannahhq.com),
 
 ![SavannahCRM Dashboard](./Dashboard.png)
 
+## Table of Contents
 
-## Insights into your community
-
-Metrics and data are great, but what are they actually telling you about your community? [Learn what Savannah is telling you about your community](./insights/connections), and how you should respond to that to keep it healthy and growing.
-
-## API Integrations
-
-For connecting Savannah to other sources, use the [API Integrations](./api/).
+* [Getting Started](./getting-started/)
+* [Dashboards](./pages/)
+  * [Members](./pages/members/)
+  * [Conversations](./pages/conversations/)
+  * [Contributions](./pages/contributions/)
+  * [Connections](./pages/connections/)
+* [Insights](./insights/)
+  * [Engagement Levels](./insights/engagement/)
+  * [Connections Netowkr](./insights/connections/)
+* [API Integrations](./api/)
