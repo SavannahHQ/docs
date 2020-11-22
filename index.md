@@ -14,7 +14,28 @@ You can sign up for Savannh at [https://savannahhq.com](https://savannahhq.com),
   * [Conversations](./pages/conversations/)
   * [Contributions](./pages/contributions/)
   * [Connections](./pages/connections/)
+* Managing Members
+  * Profiles
+  * Tags
+  * Notes
+  * Tasks
+  * Gifts
+  * Watches
+  * Merge Suggestions
+* Tracking Activity
+  * Conversations vs. Contributions
+  * Tags
+  * Engagement Levels
+  * Projects
+  * Contribution Suggestions
 * [Insights](./insights/)
   * [Engagement Levels](./insights/engagement/)
   * [Connections Netowkr](./insights/connections/)
+* Administration
+  * Sources & Channels
+  * Tags
+  * Projects
+  * Managers
+  * Gifts
+  * Reports
 * [API Integrations](./api/)
