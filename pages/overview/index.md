@@ -1,6 +1,6 @@
 # Overview
 
-Even though Savannah is not a metrics platform, the information is collects in order to help you manage your community relationships can also provide you with insights about your overall community size, health and activity.
+Even though Savannah is not a metrics platform, the information it collects in order to help you manage your community relationships also provides insights about your community size, health and activity.
 
 The Overview dashboard is a good starting point in Savannah, it will show you counts on your number of Members, where they come from, how engaged they are, and who your top people are. From here you can navigate to other dashboards to look at different aspects of your community.
 
