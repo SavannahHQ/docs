@@ -34,7 +34,7 @@ While your data is being imported, take a moment to familiarize yourself with th
 
 Most pages in Savannah can be filtered by a time range, by a Member's `Role` (Community, Staff or Bot) or by the `Tag` associated with the Member, Conversation or Contribution.
 
-![View Filters](./FilterButtons.png)
+![View Filters](/images/FilterButtons.png)
 
 Filters are saved to your session, so once you apply them they will follow you from one page to another until they are cleared.
 
