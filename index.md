@@ -33,6 +33,13 @@ You can sign up for Savannh at [https://savannahhq.com](https://savannahhq.com),
   * [Connections Netowkr](./insights/connections/)
 * Administration
   * Sources & Channels
+    * Slack
+    * Discord
+    * Discourse
+    * Github
+    * Gitlab
+    * RSS
+    * API
   * Tags
   * Projects
   * Managers
