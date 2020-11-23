@@ -2,9 +2,9 @@
 
 Dashboards give you a visual look at your community, as a whole or in segments, across a number for important perspectives. 
 
-Each of your dashboards can be filtered by a time range, member role or member tag. The Conversations and Contributions dashboards can additionally be filtered by the tag applied to a conversation or contribution. Filters give you the ability to drill down into your data to be able to find key members or answer specific questions.
-
 ![View Filters](/images/FilterButtons.png)
+
+Each of your dashboards can be filtered by a time range, member role or member tag. The Conversations and Contributions dashboards can additionally be filtered by the tag applied to a conversation or contribution. Filters give you the ability to drill down into your data to be able to find key members or answer specific questions.
 
 ## Overview Dashboard
 
