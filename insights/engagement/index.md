@@ -34,15 +34,15 @@ The most common of these bottlenecks is between Visitors and Participants. If yo
 
 Another common place your community may be bottlenecked is making the jump to being a Contributor. If your community is focused primarily on users talking to other users this might be expected, and not necessarily an indication of a problems. But even in user communities you want people who are giving back more than just conversations, this is why Savannah will look as members providing answers and help to other members and count those as a contribution in addition to more traditional ones like fixing bugs in software.
 
-If you have a bottleneck between your Participants and Contributors, it means your member are lacking either the skills necessary to make a contribution or, more likely, the access to needed make them. If you have a user-oriented community, do people feel empowered to provide answers themselves? If you have a project-oriented community are there processes or tools that potential contributors are being excluded from? You may need to spend some time talking to your community members to find the answers to these questions, but doing so will unlock the potential for future growth.
+If you have a bottleneck between your Participants and Contributors, it means your member are lacking either the skills necessary to make a contribution or, more likely, the access needed make them. If you have a user-oriented community, do your members feel empowered to provide support themselves? If you have a project-oriented community are there processes or tools that potential contributors are excluded from? You may need to spend some time talking to your community members to find the answers to these questions, but doing so will unlock the potential for future growth.
 
 ## Core Bottleneck
 
 ![Core Bottleneck Engagement Levels](/images/engagement/core_bottleneck.png)
 
-## Edge Extremes
+The last place your members might be experiencing a bottleneck is in becoming a Core contributor to your community. Since this level requires a significant level of time and effort only a small part of your overall community will ever reach it, but it's still important make sure you haven't put any unnecessary obstacles in the way or given such an unpleasant experience on the first contribution that your members don't want to make more.
 
-![Edge Extremes Engagement Levels](/images/engagement/edge_extremes.png)
+If you see a bottleneck here you should take a look at the contribution experience that your members are having. Either the tools, process, or people involved may be giving a poor experience, making first time contributors less likely to go through it again. Read the conversations around their contributions, are they fighting with a tool or process that you could improve or document better? Are people acting as gatekeepers and making the contribution process harder than it needs to be? Ensuring a good first contribution experience is essential if you want members to keep doing it.
 
 ## Ideal Distributions
 
