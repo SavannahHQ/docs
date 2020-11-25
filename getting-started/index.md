@@ -77,7 +77,7 @@ Projects give you another way of defining segments of your community that you wa
 
 Projects will automatically identify your **Core** members and **Contributors**, as well how many **Participants** and **Visitors** you have for that project. Similar to a sales funnel, this lets you track how well you are doing getting people onboarded in your community and whether or not they are progressing to more involved levels.
 
-![Project Levels](./ProjectLevels.png)
+![Project Levels](/images/engagement/ideal_distribution.png)
 
 Your community will start with a default Project that covers all of your channels and tags.
 
