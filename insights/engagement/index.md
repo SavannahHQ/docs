@@ -34,7 +34,7 @@ The most common of these bottlenecks is between Visitors and Participants. If yo
 
 Another common place your community may be bottlenecked is making the jump to being a Contributor. If your community is focused primarily on users talking to other users this might be expected, and not necessarily an indication of a problems. But even in user communities you want people who are giving back more than just conversations, this is why Savannah will look as members providing answers and help to other members and count those as a contribution in addition to more traditional ones like fixing bugs in software.
 
-If you have a bottleneck between your Participants and Contributors, it means your member are lacking either the skills necessary to make a contribution or, more likely, the access needed make them. If you have a user-oriented community, do your members feel empowered to provide support themselves? If you have a project-oriented community are there processes or tools that potential contributors are excluded from? You may need to spend some time talking to your community members to find the answers to these questions, but doing so will unlock the potential for future growth.
+If you have a bottleneck between your Participants and Contributors, it means your member are lacking either the skills necessary to make a contribution or, more likely, the access needed make them. If you have a user-oriented community, do your members feel empowered to provide support themselves? If you have a product-oriented community are there processes or tools that potential contributors are excluded from? You may need to spend some time talking to your community members to find the answers to these questions, but doing so will unlock the potential for future growth.
 
 ## Core Bottleneck
 
@@ -48,11 +48,18 @@ If you see a bottleneck here you should take a look at the contribution experien
 
 ![Ideal Engagement Levels](/images/engagement/ideal_distribution.png)
 
+A healthy community will have a relatively consistent difference between the number of members at each level, because every member will move up at their own pace and to their own limits. While the absolute numbers will vary depending on the size of your community, the health and member experience will always show up in your Engagement Levels chart as smooth transitions between levels.
+
+Even with an ideal distribution of members at all levels, there is still some insights to be gained by looking at the overall shape of your graph.
+
 ### Steep Onramp
 
 ![Steep Onramp Levels](/images/engagement/steep_onramp.png)
+
+If your community is based on specific knowledge or skills that take significant time or money to acquire, you're very likely to have a steep onramp for moving members up to higher levels. There's not much you can do about that other than try to make those skills easier or cheaper to acquire. But if you those aren't needed, there may be changes you can make to your tools or processes to make that progress easier on your members.
 
 ### Shallow Onramp
 
 ![Shallow Onramp Levels](/images/engagement/shallow_onramp.png)
 
+A shallow onramp means that your community is progressing easily and quickly up the levels. If your community is based on broadly held skills or interests, you are more likely have a shallow onramp, but if you have a skills-based community it might be a sign that you're not reaching as many potential Visitors as you could be, and that you need to look into promoting your community more broadly than you currently are.
