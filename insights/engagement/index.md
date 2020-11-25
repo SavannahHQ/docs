@@ -26,13 +26,15 @@ If your Engagement Levels chart looks like this, it means your community probabl
 
 A common situation is that your community is broadly healthy, but has unseen bottlenecks that are preventing members from progressing from one level to the next when they're ready. These bottlenecks are noticable in your Engagement Levels chart when there is a significant difference between two levels, but smooth transitions between the others.
 
-The most common of these bottlenecks is between Visitors and Participants. If you have a big difference here, but not between Particpants and Contributors, or Contributors and Core, it means that something is keeping people at the Visitor level even when they're ready to progress up. This can often be overcome by focusing on re-engagement efforts like ensuring somebody is responding to questions or pull requests, sending follow-up emails with updates or reminders relevant to thier initial activity, or even something as simplea as sending them a direct message asking if they've received the help that they needed.
+The most common of these bottlenecks is between Visitors and Participants. If you have a big difference here, but not between Particpants and Contributors, or Contributors and Core, it means that something is keeping people at the Visitor level even when they're ready to progress up. This can often be overcome by focusing on re-engagement efforts like ensuring somebody is responding to questions or pull requests, sending follow-up emails with updates or reminders relevant to thier initial activity, or even something as simple as sending them a direct message asking if they've received the help that they needed.
 
 ## Contribution Bottleneck
 
 ![Contribution Bottleneck Engagement Levels](/images/engagement/contribution_bottleneck.png)
 
+Another common place your community may be bottlenecked is making the jump to being a Contributor. If your community is focused primarily on users talking to other users this might be expected, and not necessarily an indication of a problems. But even in user communities you want people who are giving back more than just conversations, this is why Savannah will look as members providing answers and help to other members and count those as a contribution in addition to more traditional ones like fixing bugs in software.
 
+If you have a bottleneck between your Participants and Contributors, it means your member are lacking either the skills necessary to make a contribution or, more likely, the access to needed make them. If you have a user-oriented community, do people feel empowered to provide answers themselves? If you have a project-oriented community are there processes or tools that potential contributors are being excluded from? You may need to spend some time talking to your community members to find the answers to these questions, but doing so will unlock the potential for future growth.
 
 ## Core Bottleneck
 
