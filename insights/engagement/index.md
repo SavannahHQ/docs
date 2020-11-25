@@ -30,7 +30,11 @@
 
 ![Ideal Engagement Levels](/images/engagement/ideal_distribution.png)
 
+### Steep Onramp
+
 ![Steep Onramp Levels](/images/engagement/steep_onramp.png)
+
+### Shallow Onramp
 
 ![Shallow Onramp Levels](/images/engagement/shallow_onramp.png)
 
