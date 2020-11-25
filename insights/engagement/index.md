@@ -56,7 +56,7 @@ Even with an ideal distribution of members at all levels, there is still some in
 
 ![Steep Onramp Levels](/images/engagement/steep_onramp.png)
 
-If your community is based on specific knowledge or skills that take significant time or money to acquire, you're very likely to have a steep onramp for moving members up to higher levels. There's not much you can do about that other than try to make those skills easier or cheaper to acquire. But if you those aren't needed, there may be changes you can make to your tools or processes to make that progress easier on your members.
+If your community is based on specific knowledge or skills that take significant time or money to acquire, you're very likely to have a steep onramp for moving members up to higher levels. There's not much you can do about that other than try to make those skills easier or cheaper to acquire. But if those aren't needed, there may be changes you can make to your tools or processes to make that progress easier on your members.
 
 ### Shallow Onramp
 
