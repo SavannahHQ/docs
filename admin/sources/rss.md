@@ -4,7 +4,7 @@ You can add your blog as a source, using either a direct link to an RSS feed, or
 
 ![Add Blog](/images/sources/AddBlog.png)
 
-Savannah will treat any article in your feed as a Contribution, unless the feed title contains the word "Comments", in which case articles will be treated as Conversations. This works with with Wordpress and many other common blog hosting platforms.
+Savannah will treat any article in your feed as a Contribution, unless the feed title contains the word "Comments", in which case articles will be treated as Conversations. This works well with Wordpress and many other common blog hosting platforms.
 
 ![Blog Channels](/images/sources/BlogChannels.png)
 
