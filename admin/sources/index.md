@@ -2,7 +2,7 @@
 
 Savannah CRM is a data-driven platform, using information from your community to power insights and recommendations for Community Managers. To get this data from your community you will need to connect it to one or more `Sources` where your community activity happens.
 
-Savannah comes with support for a number of popular community platforms which can be quickly and easily added as a source. For everything else, there's an API you can use to make that connection yourself.
+Savannah comes with support for a number of popular community platforms which can be quickly and easily added as a source. For everything else, there's an [API](api.md) you can use to make that connection yourself.
 
 ## Built-in connectors
 
