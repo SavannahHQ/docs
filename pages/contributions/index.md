@@ -8,15 +8,16 @@ While you may value different kinds of contributions to your product differently
 
 Every data source in Savannah determines what activity in that source should be counted as a Contribution. Below is a table showing what each of the built-in sources uses to make that determination.
 
-| Source    | Contribution Types |
-|:----------|:------------------|
-| Slack     | Help given in chat to another member (as suggested by Savannah) |
-| Discourse | Posts marked as a Solution using Discourse's Answers plugin |
-| Discord   | Help given in chat to another member (as suggested by Savannah) |
-| Github    | Pull Request opened |
-| Gitlab    | Merge Request opened |
-| Blog      | Article written |
-| API       | Any Contribution type defined when creating a new Contribution |
+| Source         | Contribution Types |
+|:---------------|:------------------|
+| Slack          | Help given in chat to another member (as suggested by Savannah) |
+| Discourse      | Posts marked as a Solution using Discourse's Answers plugin |
+| Discord        | Help given in chat to another member (as suggested by Savannah) |
+| Github         | Pull Request opened |
+| Gitlab         | Merge Request opened |
+| Stack Exchange | Accepted answers to a question |
+| Blog           | Article written |
+| API            | Any Contribution type defined when creating a new Contribution |
  
 ## Contributions by Channel
 

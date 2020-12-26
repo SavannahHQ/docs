@@ -6,15 +6,16 @@ Connections are a powerful way to measure the health of your community, because 
 
 Savannah treats any direct communication between two people as a Connection. Below is a table describing the way connections are recorded for each Source that Savannah provides.
 
-| Source    | Connection from |
-|:----------|:------------------|
-| Slack     | @tagging a member or responding in a thread that the member is also in. |
-| Discourse | @tagging a member or responding in a topic that member is also in. |
-| Discord   | @tagging a member. |
-| Github    | @tagging a member or responding in an Issue or Pull Request that member is also in. |
-| Gitlab    | @tagging a member or responding to an Issue or Merge Request that member is also in. |
-| Blog      | Commenting on an article that member has written or commented on (requires RSS comments feed) |
-| API       | Any member listed as a `participant` in a Converation |
+| Source         | Connection from |
+|:---------------|:------------------|
+| Slack          | @tagging a member or responding in a thread that the member is also in. |
+| Discourse      | @tagging a member or responding in a topic that member is also in. |
+| Discord        | @tagging a member. |
+| Github         | @tagging a member or responding in an Issue or Pull Request that member is also in. |
+| Gitlab         | @tagging a member or responding to an Issue or Merge Request that member is also in. |
+| Stack Exchange | Authors of associated Questions, Answers or Comments |
+| Blog           | Commenting on an article that member has written or commented on (requires RSS comments feed) |
+| API            | Any member listed as a `participant` in a Converation |
 
 
 ## Network Graph
