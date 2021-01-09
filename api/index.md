@@ -55,7 +55,7 @@ An `Identity` is what associates a `Member` of your community with a `Source`. M
 The `Identity` API endpoint is:
 
 ```
-https://savannahhq.com/api/v1/identity/
+https://savannahcrm.com/api/v1/identity/
 ```
 
 ![Create an Identity](./IdentityAPI.png)
@@ -63,7 +63,7 @@ https://savannahhq.com/api/v1/identity/
 You can create a new `Identity` by senting a POST message to the `Identity` endpoint. Creating an `Identiy` will also create a `Member` for that `Identity`
 
 ```
-curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: token f32fde77-ebbb-4799-94f7-065846da88bf" https://savannahhq.com/api/v1/identity/ <<EOF
+curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: token f32fde77-ebbb-4799-94f7-065846da88bf" https://savannahcrm.com/api/v1/identity/ <<EOF
 {
     "origin_id": "test_user_id",
     "username": "test_user",
@@ -79,7 +79,7 @@ EOF
 The `Conversation` API endpoint is:
 
 ```
-https://savannahhq.com/api/v1/conversation/
+https://savannahcrm.com/api/v1/conversation/
 ```
 
 ![Create a Conversation](./ConversationsAPI.png)
@@ -93,7 +93,7 @@ When creating a `Conversation` you will need to provide certain fields in the fo
 Savannah will create a `Connection` record between the `speaker` and any `particpants` in the conversation.
 
 ```
-curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: token f32fde77-ebbb-4799-94f7-065846da88bf" https://savannahhq.com/api/v1/conversation/ <<EOF
+curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: token f32fde77-ebbb-4799-94f7-065846da88bf" https://savannahcrm.com/api/v1/conversation/ <<EOF
 {
     "origin_id": "conversation_id",
     "speaker": "test_user",
@@ -113,7 +113,7 @@ EOF
 The `Contribution` API endpoint is:
 
 ```
-https://savannahhq.com/api/v1/contribution/
+https://savannahcrm.com/api/v1/contribution/
 ```
 
 ![Create a Contribution](./ContributionsAPI.png)
@@ -128,7 +128,7 @@ You must also provide a `contribution_type` string to that identifies the kind o
 If the `Contribution` you area adding is associated with an existing `Conversation`, you can provide the `origin_id` of the `Conversation` as the `conversation` parameter, otherwise leave it as `null`.
 
 ```
-curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: token f32fde77-ebbb-4799-94f7-065846da88bf" https://savannahhq.com/api/v1/contribution/ <<EOF
+curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: token f32fde77-ebbb-4799-94f7-065846da88bf" https://savannahcrm.com/api/v1/contribution/ <<EOF
 {
     "origin_id": "contribution_id",
     "author": "test_user",
