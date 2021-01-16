@@ -1,6 +1,6 @@
 ## Getting Started with Savannah
 
-To start tracking your community with Savannah, you will need to [Create a new Community](https://savannahhq.com/community/new) by providing a name and logo.
+To start tracking your community with Savannah, you will need to [Create a new Community](https://savannahcrm.com/community/new) by providing a name and logo.
 
 ![Create a new Community](./CreateCommunityForm.png)
 
