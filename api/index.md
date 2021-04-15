@@ -62,6 +62,8 @@ https://savannahcrm.com/api/v1/identity/
 
 You can create a new `Identity` by senting a POST message to the `Identity` endpoint. Creating an `Identiy` will also create a `Member` for that `Identity`
 
+You may also set tags on a member by passing an array of tag names to the `tags` field. If a tag by a given name does not already exist, Savannah will automatically create one for you.
+
 ```
 curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: token f32fde77-ebbb-4799-94f7-065846da88bf" https://savannahcrm.com/api/v1/identity/ <<EOF
 {
@@ -74,6 +76,8 @@ curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: toke
 }
 EOF
 ```
+
+If a `Member` with the given `Identity` already exists, this call will update their information.
 
 # Conversations
 
@@ -90,6 +94,7 @@ When creating a `Conversation` you will need to provide certain fields in the fo
 * `speaker`: The id of the person who posted the comment
 * `channel`: The id of the channel (however your source defines them) that the conversation happened in
 * `participants`: A list of ids for the people who were tagged, replied to, or otherwise were a participant in this conversation.
+* `tags`: An array of tag names to be applied to this conversation. If a tag by a given name does not already exist, Savannah will automatically create one for you.
 
 Savannah will create a `Connection` record between the `speaker` and any `particpants` in the conversation.
 
