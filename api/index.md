@@ -69,7 +69,8 @@ curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: toke
     "username": "test_user",
     "name": "Test User",
     "email": "test@example.com",
-    "avatar": null
+    "avatar": null,
+    "tags": ["test", "foo"]
 }
 EOF
 ```
@@ -103,7 +104,8 @@ curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: toke
     "location": "https://example.com/conversations/conversation_id/test_conversation",
     "participants": [
         "test_user_x"
-    ]
+    ],
+    "tags": ["test", "foo"]
 }
 EOF
 ```
