@@ -147,3 +147,59 @@ curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: toke
     "conversation": "conversation_id"
 }
 ```
+
+# Events
+
+The `Event` API endpoint is:
+
+```
+https://savannahcrm.com/api/v1/event/
+```
+
+![Create an Event](./EventsAPI.png)
+
+When creating an `Event` you will need provide a `channel` under your your API Integration source where it will be listed. If a `channel` with the given name does not exist, Savannah will create one for you.
+
+```
+curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: token f32fde77-ebbb-4799-94f7-065846da88bf" https://savannahcrm.com/api/v1/event/ <<EOF
+{
+    "origin_id": "my-company-conference-2021",
+    "channel": "DevConf",
+    "start_timestamp": "2020-06-23T12:00:00",
+    "end_timestamp": "2020-06-24T16:00:00",
+    "title": "MyCompany DevConf 2020",
+    "description": "Our 3rd annual developer conference",
+    "location": "https://example.com/events/devconf/2021",
+    "tag": "conference"
+}
+```
+
+You may optionally pass a list of member `origin_id`s to this endpoint using the `attendees` property. This is useful if you have already added the members to Savannah and know the entire list of attendees when calling this endoint. 
+
+However, more often than not you will want to create the `Event` record first, and then iteratively add each attendee with their full details. For this, use the `EventAttendance` endpoint below.
+
+## Event Attendees
+
+The `EventAttendance` API endpoint is:
+
+```
+https://savannahcrm.com/api/v1/event/{event_id}/attendee/
+```
+
+You can optionally add members as attendees of your event. The `EventAttendee` endpoint is identical to the `Identity` endpoint, except that members will be marked as having attended the event specified in the URL. Event attendance will set a Member's first and last seen dates the same way conversations and contributions will.
+
+If a member with  a matching `origin_id` does not exist, Savannah will create one for you.
+
+
+```
+curl -X POST -d "@-" -H "Content-Type: application/json" -H "Authorization: token f32fde77-ebbb-4799-94f7-065846da88bf" https://savannahcrm.com/api/v1/event/my-company-conference-2021/attendee/ <<EOF
+{
+    "origin_id": "test_user_id",
+    "username": "test_user",
+    "name": "Test User",
+    "email": "test@example.com",
+    "avatar": null,
+    "tags": ["test", "foo"]
+}
+EOF
+```
