@@ -13,6 +13,7 @@ Savannah comes with support for a number of popular community platforms which ca
 | [Discord](discord.md)              | Chat activity in your Discord Channels |
 | [Github](github.md)                | Issues,Pull requests, and their comments |
 | [Gitlab](gitlab.md)                | Issues, Merge Requests requests, and their comments |
+| [Salesforce (SFDC)](salesforce.md) | Name and Account |
 | [Stack Exchange](stackexchange.md) | Questions, Answers and Comments |
 | [Blog](rss.md)                     | Articles and Comments in an RSS feed |
 
