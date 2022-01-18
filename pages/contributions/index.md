@@ -15,6 +15,8 @@ Every data source in Savannah determines what activity in that source should be 
 | Discord        | Help given in chat to another member (as suggested by Savannah) |
 | Github         | Pull Request opened |
 | Gitlab         | Merge Request opened |
+| Meetup         | Hosted an event |
+| Reddit         | Help given in a thread to another member (as suggested by Savannah) |
 | Stack Exchange | Accepted answers to a question |
 | Blog           | Article written |
 | API            | Any Contribution type defined when creating a new Contribution |
