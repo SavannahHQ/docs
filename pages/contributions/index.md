@@ -13,6 +13,7 @@ Every data source in Savannah determines what activity in that source should be 
 | Slack          | Help given in chat to another member (as suggested by Savannah) |
 | Discourse      | Posts marked as a Solution using Discourse's Answers plugin |
 | Discord        | Help given in chat to another member (as suggested by Savannah) |
+| Event          | Organising or speaking at an event |
 | Github         | Pull Request opened |
 | Gitlab         | Merge Request opened |
 | Meetup         | Hosted an event |
