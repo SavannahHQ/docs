@@ -1,18 +1,18 @@
 # Opportunities
 
-Just like a Contribution is an instance of a community member giving back to your community, an Opportunity is a *potential* Contribution that could be made with the right resources and encouragement from you.
+If a Contribution is a community member giving back to your community, an Opportunity is a *potential* Contribution, one that might be made with the right resources and encouragement from you.
 
-Very often when a Community Manager is engaging with the community, a conversation comes up where a community member offers to make a contribution, such as writing a blog post or hosting a meetup, or where the Community Manager sees that a member is capable of making that kind of contribution and just needs to be encouraged to do it. All of these represent an Opportunity for a Contribution. However many times nothing comes of them because they are forgotten about and there is no follow-up.
+Often when a Community Manager is talking with someone inthe community, a conversation comes up where that community member offers to make a contribution (such as writing a blog post or hosting a meetup) or where the Community Manager sees that the member is capable of making that kind of contribution and just needs to be encouraged to do it. All of these represent an Opportunity for a Contribution. However many times nothing comes of them because they are forgotten about and there is no follow-up.
 
 ![Opportunity Dashboard](/images/opportunities/dashboard.png)
 
 ## Opportunity Workflow
 
-Savannah provides you with a built-in workflow for tracking Opportunities through a small number of stages in the following order:
+Savannah provides you with a simple built-in workflow for tracking Opportunities through stages in the following order:
 
-* **Identified**: Opportunities usually start off with the Community Manager noticing the potential in a Member. We call this "Identifying" the opportunity, because the Community Manager knows what the potential contribution would be, where it would happen, and possibly even when it could happen by. But they haven't asked the Member about doing it yet.
+* **Identified**: Opportunities usually start off with the Community Manager noticing the potential in a Member. We call this "Identifying" the opportunity, because the Community Manager knows what the potential contribution would be, and where it would happen, but they haven't asked the Member about doing it yet.
 
-* **Proposed**: Once an Opportunity has been identified, the Community Manager needs to ask the Member is it's something they are willing and able to do. The Member may either agree to making the contribution, or decline for some reason.
+* **Proposed**: Once an Opportunity has been identified, the Community Manager needs to ask if it's something that person is willing and able to do. The Member may either agree to making the contribution, or decline for some reason.
 
 * **Agreed**: If the Member says "yes" to the proposal, the Opportunity moves into the "Agreed" state. It will remain here until the Contribution is made.
 
@@ -22,11 +22,11 @@ Savannah provides you with a built-in workflow for tracking Opportunities throug
 
 ## Closed states
 
-In addition to the **Complete** state, which represents the successful completion of a Contribtuion, an Opportunity may end up being closed without being completed. Savannah provides the following states for this:
+In addition to the **Complete** state, which represents the successful completion of a Contribution, an Opportunity may end up being closed without being completed. Savannah provides the following states for this:
 
 * **Declined**: Not every community member is going to agree to every proposed Contribution. The "Declined" state represents their decision not to make the Contribution you asked for. This state can be entered anywhere between the proposal and submission of the contribution.
 
-* **Rejected**: Other times you as the Community Manager may decide that the Contribution isn't wanted. This can happen early on in the "Identified" state, if you realize that what you originally identified is not possible or not desirable, or after the "Submitted" state if for whatever reason the work that was done is not acceptable and cannot be made acceptable.
+* **Rejected**: Other times you as the Community Manager may decide that the Contribution isn't wanted. This can happen early on in the "Identified" state, if you realize that what you originally identified is not possible or desirable, or after the "Submitted" state if for whatever reason the work that was done is not acceptable.
 
 ## Opportunity Funnel
 
