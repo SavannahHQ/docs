@@ -8,7 +8,9 @@ The first page you see in Savannah CRM is not filled with graphs and numbers, in
 
 ![Source Activity](/images/managers_dashboard/sources.png)
 
-At the very top of your dashboard will be a list of the various locations (Sources in Savannah) where your community activity happens, in the order of most active to least active. For each you will see a percentage showing the relative activity level in that location over the previous 7 days, compared to the average for the month before that. This will show you which locations have been more active recently, and which have been less active and may need your attention. Those at 120% or more will be colored green to indicate high performance, while those at 80% or less will be colored red to indicate low performance.
+At the very top of your dashboard will be a list of the various locations (Sources in Savannah) where your community activity happens, in the order of most active to least active. For each you will see a percentage showing the relative activity level in that location over the previous 7 days, compared to the average for the month before that. 
+
+This will show you which locations have been more active recently, and which have been less active and may need your attention. Those at 120% or more will be colored green to indicate high performance, while those at 80% or less will be colored red to indicate low performance.
 
 ## Open Tasks
 
@@ -20,7 +22,7 @@ Any open tasks that you have assigned to you will be listed here, along with a b
 
 ![Contribution Opportunities](/images/managers_dashboard/opportunities.png)
 
-A list of your opened opportunities is displayed so that you can see which ones you need to follow up with or update. Each one will have a button you can use to move it to the next state in the opportunity workflow.
+A list of your opened [opportunities](/pages/opportunities/) is displayed so that you can see which ones you need to follow up with or update. Each one will have a button you can use to move it to the next state in the opportunity workflow.
 
 ## Outstanding Gifts
 
@@ -44,10 +46,10 @@ A short list of your most recently created Member Notes will be seen here, so yo
 
 ![Newest Members](/images/managers_dashboard/new_members.png)
 
-The 10 most recent members to appear in your community, along with the time of their activity.
+The 10 most recent [members](/pages/members/) to appear in your community, along with the time of their activity.
 
 ## Newest Contributors
 
 ![Newest Contributors](/images/managers_dashboard/new_contributors.png)
 
-The 10 most recent contributors to appear in your community, along with the time of their contribution.
+The 10 most recent [contributors](/pages/contributions) to appear in your community, along with the time of their contribution.
