@@ -30,6 +30,12 @@ The Contributions dashboard allows you to track who is giving back to your commu
 
 [Read more about the Contributions Dashboard](/pages/contributions/)
 
+## Opportunities Dashboard
+
+The Opportunities dashboard allows you to track potential contributions from your community and to follow up on them to ensure they are successful.
+
+[Read more about the Opportunities Dashboard](/pages/opportunities/)
+
 ## Connections Dashboard
 
 The Connections dashboard gives you view of how everybody in your community is connected to everybody else. It helps you spot those Members who are bringing everybody else together, forming the bonds and relationships that your community needs to thrive.
