@@ -30,6 +30,8 @@ In addition to the **Complete** state, which represents the successful completio
 
 ## Opportunity Funnel
 
-Not all opportunities will make their way all the way through to completion, so keeping the funnel filled with new opportunities will ensure a consistent flow of new contributions at each stage of the process. The Opportunity Funnel works exactly as a traditional sales opportunity funnel to show you the relative number of Opportunities you have moving through your workflow so that you can identify bottlenecks or shortfalls in your effort to get more contributions. Too many stuck in "Proposed" means you need to spend time following up with members, while too many stuck in "Submitted" means something on your end is blocking the successful completion of them.
+Not all opportunities will make their way all the way through to completion, so keeping the funnel filled with new opportunities will ensure a consistent flow of new contributions at each stage of the process. 
+
+The Opportunity Funnel works exactly as a traditional sales opportunity funnel to show you the relative number of Opportunities you have moving through your workflow so that you can identify bottlenecks or shortfalls in your effort to get more contributions. Too many stuck in "Proposed" means you need to spend time following up with members, while too many stuck in "Submitted" means something on your end is blocking the successful completion of them.
 
 ![Opportunity Funnel](/images/opportunities/funnel.png)

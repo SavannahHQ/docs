@@ -8,7 +8,7 @@ Each of your dashboards can be filtered by a time range, member role or member t
 
 ## Overview Dashboard
 
-The Overview dashboard gives you high level, at a glance information about the current state of your community. It includes counts of your Members, Contributors, Conversations and Contributions, as well as your overall community's growth, Egnagement Levels and your most active & engaged members
+The Overview dashboard gives you high level, at a glance information about the state of your community. It includes counts of your Members, Contributors, Conversations and Contributions, as well as your overall community's growth, Egnagement Levels and your most active & engaged members
 
 [Read more about the Overview Dashboard](/pages/overview/)
 
