@@ -1,6 +1,6 @@
 # Webhooks
 
-> WARNING: Webhooks are a beta feature and subject to change. To start using them contact info@savannahhq.vom
+> WARNING: Webhooks are a beta feature and subject to change. To start using them contact info@savannahhq.com
 
 Webhooks allow you to send data to an external system whenever something changes within Savannah.
 
