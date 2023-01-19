@@ -22,7 +22,7 @@ The payload for this event will always be the Member's profile data:
         "id": "0b221da1-89b8-4b17-95dd-bdd91398a364", 
         "hook": "3350fc24-ebb4-4d27-a9e4-2ca33994b092", 
         "name": "Member.updated", 
-        "target": "https://savannahcrm.com/dump/", 
+        "target": "https://yourhostname.com/webhook_handler", 
         "signature": "3zEgRNAs/KsbPP1VrVUhZwCWBvntmMGVtgKDYGYZXKU="
     }, 
     "data": {
@@ -48,7 +48,7 @@ The payload for this event will contain the project, new and previous levels:
         "id": "29011008-b537-4951-a84c-b4f9c3d1ce4c", 
         "hook": "38cc41fa-9863-426a-afcc-117d26dc6d7c", 
         "name": "EngagementLevel.Up", 
-        "target": "https://savannahcrm.com/dump/", 
+        "target": "https://yourhostname.com/webhook_handler", 
         "signature": "W+A7enQIGBAJ013a9yMf49OTxuWcHJoNjQaE6OIpFck="
     }, 
     "data": {
