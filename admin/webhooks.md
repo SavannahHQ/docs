@@ -8,12 +8,12 @@ Webhooks allow you to send data to an external system whenever something changes
 
 Every event is given a heirarchical name that identifies the reason for the event and the data that will be associated with it.
 
-When subscribing to events you can subscribe to the full event name (such as `Member.Changed`) or all events in a heirarchy (such as `Member.*`).
+When subscribing to events you can subscribe to the full event name (such as `Member.changed`) or all events in a heirarchy (such as `Member.*`).
 
 ### Member
 
 Member events are triggered whenever a Member profile is created, modified, or deleted. 
-The event name will be `Member.Created`, `Member.Changed` or `Member.Deleted` respectively.
+The event name will be `Member.created`, `Member.changed` or `Member.deleted` respectively.
 
 The payload for this event will always be the Member's profile data:
 ```
@@ -39,7 +39,7 @@ The payload for this event will always be the Member's profile data:
 ### EngagementLevel
 
 EngagementLevel events are triggered whenever a Member's engagement level changes is a project.
-Event names will be either `EngagementLevel.Up` or `EngagementLevel.Down` depending on whether there has been an increase or decrease in the member's engagement level in that project.
+Event names will be either `EngagementLevel.up` or `EngagementLevel.down` depending on whether there has been an increase or decrease in the member's engagement level in that project.
 
 The payload for this event will contain the project, new and previous levels:
 ```
@@ -47,7 +47,7 @@ The payload for this event will contain the project, new and previous levels:
     "event": {
         "id": "29011008-b537-4951-a84c-b4f9c3d1ce4c", 
         "hook": "38cc41fa-9863-426a-afcc-117d26dc6d7c", 
-        "name": "EngagementLevel.Up", 
+        "name": "EngagementLevel.up", 
         "target": "https://yourhostname.com/webhook_handler", 
         "signature": "W+A7enQIGBAJ013a9yMf49OTxuWcHJoNjQaE6OIpFck="
     }, 
